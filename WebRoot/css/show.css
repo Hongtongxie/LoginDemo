@@ -1,0 +1,79 @@
+#top{
+	position:relative;
+	height:80px;
+}
+#top img{
+	margin-left:80px;
+}
+a{
+	text-decoration: none;
+}
+#top .name,#top .car{
+	float:right;
+	color:#bbb;
+	margin-right:15px;
+}
+#top .shop{
+	float:right;
+	margin-right:80px;
+	color:#aaa;
+	margin-top:20px;
+}
+#top .shop:hover{
+	text-decoration:underline;
+}
+#top .search{
+	width:500px;
+	height:40px;
+	position:absolute;
+	top:10px;
+	left:32%;
+	border: 1px solid deeppink;
+}
+#top .search_key{
+	margin:0;
+	width:415px;
+	height:35px;
+	border:none;
+}
+#top input:focus{
+	border:none;
+}
+#top .submit{
+	width:80px;
+	height:40px;
+	margin-right:0;
+	background-color:deeppink;
+	border:none;
+}
+#nav{
+	margin-left:80px;
+	width:900px;
+}
+#nav .lct{
+	float:left;
+	margin-right:20px;
+}
+#nav p{
+	color:#aaa;
+	font-size:20px;
+}
+#nav p span{
+	font-size:16px;
+}
+#nav strong{
+	font-size:24px;
+	color:red;
+}
+#nav .pay{
+	background-color:red;
+	width:200px;
+	height:60px;
+	font-size:22px;
+	color:white;
+}
+#nav .join{
+	width:200px;
+	height:60px;
+	font-size:22px;
+}
